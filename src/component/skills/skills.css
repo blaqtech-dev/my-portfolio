@@ -1,0 +1,169 @@
+/* =========================
+   SKILLS SECTION
+========================= */
+
+.skills-section{
+  padding:120px 80px;
+  text-align:center;
+}
+
+
+/* TITLE */
+
+
+
+/* SUBTITLE */
+.skills-subtitle{
+  font-size:16px;
+  opacity:0.7;
+
+  margin-bottom:60px;
+}
+
+
+/* =========================
+   GRID
+========================= */
+
+.skills-grid{
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(180px,1fr));
+
+  gap:30px;
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.skill-card{
+  position:relative;
+
+  padding:35px 20px;
+
+  border-radius:20px;
+
+  background:rgba(255,255,255,0.05);
+
+  border:1px solid rgba(255,255,255,0.08);
+
+  backdrop-filter:blur(15px);
+
+  display:flex;
+  flex-direction:column;
+
+  align-items:center;
+
+  gap:15px;
+
+  cursor:pointer;
+
+  transition:0.3s ease;
+
+  overflow:hidden;
+}
+
+
+/* LIGHT MODE */
+body.light .skill-card{
+  background:rgba(255,255,255,0.7);
+  border:1px solid rgba(0,0,0,0.06);
+}
+
+
+/* DARK MODE */
+body.dark .skill-card{
+  background:rgba(2,6,23,0.4);
+}
+
+
+/* HOVER EFFECT */
+.skill-card:hover{
+  transform:translateY(-10px);
+
+  border-color:#2563eb;
+
+  box-shadow:0 15px 40px rgba(37,99,235,0.25);
+}
+
+
+/* =========================
+   ICON
+========================= */
+
+.icon-wrapper{
+  font-size:60px;
+
+  padding:18px;
+
+  border-radius:18px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  transition:0.3s ease;
+
+  background:rgba(37,99,235,0.08);
+}
+
+
+/* ICON HOVER */
+.skill-card:hover .icon-wrapper{
+  transform:scale(1.15) rotate(5deg);
+}
+
+
+/* TEXT */
+.skill-card p{
+  font-size:18px;
+  font-weight:600;
+
+  text-transform:capitalize;
+}
+
+
+/* =========================
+   GLOW EFFECT
+========================= */
+
+.skill-card::before{
+  content:"";
+
+  position:absolute;
+
+  width:120px;
+  height:120px;
+
+  background:linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+
+  filter:blur(60px);
+
+  top:-30px;
+  right:-30px;
+
+  opacity:0.4;
+
+  z-index:0;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:900px){
+
+  .skills-section{
+    padding:100px 20px;
+  }
+
+ 
+}

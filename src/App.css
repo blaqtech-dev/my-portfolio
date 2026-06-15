@@ -1,0 +1,393 @@
+/* ===================================
+   GOOGLE FONT
+=================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/* ===================================
+   ROOT VARIABLES
+=================================== */
+
+:root{
+
+  --primary:#2563eb;
+  --primary-hover:#1d4ed8;
+
+  --secondary:#7c3aed;
+
+  --success:#10b981;
+
+  --danger:#ef4444;
+
+  --text-dark:#0f172a;
+  --text-light:#f8fafc;
+
+  --gray-100:#f8fafc;
+  --gray-200:#e2e8f0;
+  --gray-300:#cbd5e1;
+  --gray-400:#94a3b8;
+  --gray-500:#64748b;
+
+  --shadow-sm:
+  0 4px 10px rgba(0,0,0,.05);
+
+  --shadow-md:
+  0 8px 30px rgba(0,0,0,.08);
+
+  --shadow-lg:
+  0 20px 50px rgba(0,0,0,.12);
+
+  --border-radius:16px;
+
+  --container-width:1200px;
+
+}
+
+
+/* ===================================
+   GLOBAL RESET
+=================================== */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+
+  font-family:'Inter',sans-serif;
+
+  transition:
+  background .4s ease,
+  color .4s ease;
+
+  overflow-x:hidden;
+
+ 
+
+}
+
+
+/* ===================================
+   LIGHT THEME
+=================================== */
+
+body.light{
+
+  background:
+  linear-gradient(
+  to bottom,
+  #ffffff,
+  #f8fafc
+  );
+
+  color:var(--text-dark);
+}
+
+
+/* ===================================
+   DARK THEME
+=================================== */
+
+body.dark{
+
+  background:
+  linear-gradient(
+  to bottom,
+  #020617,
+  #0f172a
+  );
+
+  color:var(--text-light);
+}
+
+
+/* ===================================
+   APP WRAPPER
+=================================== */
+
+.app-container{
+  min-height:100vh;
+}
+
+
+/* ===================================
+   LINKS
+=================================== */
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.nav-link{
+  text-decoration:none;
+  transition:.3s ease;
+}
+
+body.light .nav-link{
+  color:var(--text-dark);
+}
+
+body.dark .nav-link{
+  color:white;
+}
+
+
+/* ===================================
+   NAVBAR
+=================================== */
+
+body.light .coverall-nav{
+
+  background:
+  rgba(255,255,255,.85);
+
+  backdrop-filter:blur(20px);
+
+  color:#000;
+}
+
+body.dark .coverall-nav{
+
+  background:
+  rgba(2,6,23,.85);
+
+  backdrop-filter:blur(20px);
+
+  color:#fff;
+}
+
+
+/* ===================================
+   FOOTER
+=================================== */
+
+body.light .coverall-bottombar{
+
+  background:
+  rgba(255,255,255,.7);
+
+  color:#000;
+}
+
+body.dark .coverall-bottombar{
+
+  background:
+  rgba(2,6,23,.7);
+
+  color:#fff;
+}
+
+
+/* ===================================
+   GLOBAL SECTION SPACING
+=================================== */
+
+
+
+/* ===================================
+   SECTION TITLES
+=================================== */
+
+.allh1{
+
+  text-align:center;
+
+  font-size:3.5rem;
+
+  font-weight:800;
+
+  letter-spacing:-1px;
+
+
+
+  position:relative;
+
+  text-transform:capitalize;
+}
+
+
+
+
+/* ===================================
+   REUSABLE CONTAINER
+=================================== */
+
+.container{
+
+  max-width:var(--container-width);
+
+  width:90%;
+
+  margin:auto;
+}
+
+
+/* ===================================
+   GLASS CARD
+=================================== */
+
+.glass-card{
+
+  backdrop-filter:blur(20px);
+
+  border-radius:var(--border-radius);
+
+  box-shadow:var(--shadow-md);
+
+  padding:25px;
+}
+
+
+
+body.light .glass-card{
+
+  background:
+  rgba(255,255,255,.7);
+
+  border:
+  1px solid rgba(255,255,255,.5);
+}
+
+body.dark .glass-card{
+
+  background:
+  rgba(255,255,255,.05);
+
+  border:
+  1px solid rgba(255,255,255,.08);
+}
+
+
+/* ===================================
+   BUTTONS
+=================================== */
+
+.btn{
+
+  padding:14px 28px;
+
+  border:none;
+
+  border-radius:12px;
+
+  cursor:pointer;
+
+  font-weight:600;
+
+  transition:.3s ease;
+}
+
+.btn-primary{
+
+  background:var(--primary);
+
+  color:white;
+}
+
+.btn-primary:hover{
+
+  background:var(--primary-hover);
+
+  transform:translateY(-3px);
+}
+
+
+/* ===================================
+   SCROLLBAR
+=================================== */
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+
+  background:
+  linear-gradient(
+  #2563eb,
+  #7c3aed
+  );
+
+  border-radius:50px;
+}
+
+::-webkit-scrollbar-track{
+  background:transparent;
+}
+
+
+/* ===================================
+   TEXT SELECTION
+=================================== */
+
+::selection{
+  background:#2563eb;
+  color:white;
+}
+
+
+/* ===================================
+   IMAGE
+=================================== */
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+
+.section-title{
+  text-align:center;
+
+  font-size:3.2rem;
+  font-weight:800;
+
+  margin-bottom:80px;
+
+  position:relative;
+}
+
+.section-title::after{
+  content:"";
+  position:absolute;
+
+  width:60px;
+  height:5px;
+
+  background:linear-gradient(
+    90deg,
+    #2563eb,
+    #7c3aed
+  );
+
+  bottom:-15px;
+  left:50%;
+
+  transform:translateX(-50%);
+
+  border-radius:50px;
+}
+
+/* ===================================
+   MOBILE
+=================================== */
+
+@media(max-width:900px){
+
+
+
+ .section-title{
+  font-size:2rem;
+ }
+
+}
+
+
