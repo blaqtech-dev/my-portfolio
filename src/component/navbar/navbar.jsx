@@ -68,13 +68,11 @@ export function NavBar({ toggleTheme, theme }) {
             )}
           </button>
 
-<button>
-             <a href="/cv.pdf" download
-                   className="cv-download-btn cv-btn">
-            Download CV
-          </a>
-          </button>
 
+<Link to='/resume'
+             className="cv-btn"
+            > view cv
+            </Link>
         </div>
 
       </nav>

@@ -142,7 +142,7 @@ body.light .project-card p{
 /* TITLE */
 .project-content h3{
   font-size:22px;
-
+color:#3d76f1 !important;
   margin-bottom:10px;
 }
 

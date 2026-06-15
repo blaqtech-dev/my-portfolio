@@ -37,11 +37,13 @@ export function BottomBar() {
         <div className="iconright-bottombar">
 
  
-         
-            <Link to='/resume'
-             className="cv-btn"
-            > view cv
-            </Link>
+         <button>
+             <a href="/cv.pdf" download
+                   className="cv-download-btn cv-btn">
+            Download CV
+          </a>
+          </button>
+            
          
      
 
