@@ -85,6 +85,10 @@
   z-index:2;
 }
 
+.name{
+   color:#2563eb !important;
+}
+
 
 /* =========================
    RIGHT CONTENT
@@ -159,6 +163,8 @@
   background:#2563eb;
   color:white;
 }
+
+
 
 
 /* =========================
