@@ -20,7 +20,7 @@ export const  projectData=[
 word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashcards, study summaries, AI tutoring, classroom management, assignments, multiplayer quiz battles, analytics, and premium subscriptions.",
  images:'images/aiquiz.jpg',
  note:'when you regiter the app,it will direct you to dashboard page,refresh and you can install it as app',
-    link: "https://frontend-aiquizmaster-cnpj.vercel.app",
+    link: "https://frontend-aiquizmaster-ydg8.vercel.app",
      github: "https://github.com/blaqtech-dev/frontend-aiquizmaster",
     type: "Full Stack",
     tech: ['reactjs','css','Nodejs','Groq api','Supabase','Pwa','Paystack']
@@ -86,7 +86,7 @@ export const miniProjectData = [
 word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashcards, study summaries, AI tutoring, classroom management, assignments, multiplayer quiz battles, analytics, and premium subscriptions.",
  images:'images/aiquiz.jpg',
  note:'when you regiter the app,it will direct you to dashboard page,refresh and you can install it as app',
-    link: "https://frontend-aiquizmaster-cnpj.vercel.app",
+    link: "https://frontend-aiquizmaster-ydg8.vercel.app",
     github: "https://github.com/blaqtech-dev/frontend-aiquizmaster",
     type: "Full Stack",
     tech: ['reactjs','css','Nodejs','Groq api','Supabase','Pwa','Paystack']
