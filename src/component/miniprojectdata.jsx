@@ -73,6 +73,16 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
     github: "https://github.com/blaqtech-dev/last-music",
     type: "Frontend",
     tech: ["React", "CSS"]
+  }, {
+    id: 7,
+    title: "Bolu's restaurant",
+    word:
+      "a website created for a restaurant that allows users to view the menu,their address and wat they sell",
+    images:'images/chef.png',
+    link: "https://bolu-res.vercel.app",
+    github: "https://github.com/blaqtech-dev/restaurant-bolu",
+    type: "Frontend",
+    tech: ["React", "Tailwind CSS"]
   },
 ];
 
