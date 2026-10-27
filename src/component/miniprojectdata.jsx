@@ -73,7 +73,8 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
     github: "https://github.com/blaqtech-dev/last-music",
     type: "Frontend",
     tech: ["React", "CSS"]
-  }, {
+  },
+   {
     id: 7,
     title: "Bolu's restaurant",
     word:
@@ -83,6 +84,29 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
     github: "https://github.com/blaqtech-dev/restaurant-bolu",
     type: "Frontend",
     tech: ["React", "Tailwind CSS"]
+  },
+
+  {
+    id: 8,
+    title: "Reelora",
+    word:
+      "Reelora is a web application that allow user to look for different interesting  kinds of movie trailer",
+    images:'images/hero_banner.jpg',
+    link: "https://reelora-movie.vercel.app",
+    github: "https://github.com/blaqtech-dev/reelora",
+    type: "full stack",
+    tech: ["React",'supabase']
+  },
+    {
+    id: 9,
+    title: "vydora",
+    word:
+      "Turn your video files into audio you can listen to anywhere. Convert, download, and keep everything organized in one place.",
+    images:'images/vydora-512.png',
+    link: "https://vydora.vercel.app",
+    github: "https://github.com/blaqtech-dev/vydora",
+    type: "full stack",
+    tech: ["React",'supabase']
   },
 ];
 
@@ -138,4 +162,15 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
     tech: ["React", "Youtube api"]
   },
 
+     {
+    id: 5,
+    title: "vydora",
+    word:
+      "Turn your video files into audio you can listen to anywhere. Convert, download, and keep everything organized in one place.",
+    images:'images/vydora-512.png',
+    link: "https://vydora.vercel.app",
+    github: "https://github.com/blaqtech-dev/vydora",
+    type: "full stack",
+    tech: ["React",'supabase']
+  },
 ];
