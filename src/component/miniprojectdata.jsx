@@ -14,21 +14,32 @@ export const  projectData=[
     tech: ["React", "Firebase", "Cloudinary", "Authentication"]
   },
 
-   {
-    id: 2,
-    title: "Ai Quiz Master",
-word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashcards, study summaries, AI tutoring, classroom management, assignments, multiplayer quiz battles, analytics, and premium subscriptions.",
- images:'images/aiquiz.jpg',
- note:'when you regiter the app,it will direct you to dashboard page,refresh and you can install it as app',
-    link: "https://frontend-aiquizmaster-ydg8.vercel.app",
-     github: "https://github.com/blaqtech-dev/frontend-aiquizmaster",
-    type: "Full Stack",
-    tech: ['reactjs','css','Nodejs','Groq api','Supabase','Pwa','Paystack']
-  },
+ {
+  id: 2,
+  title: "WEBLIVO",
+  word: "AI-powered website builder that allows users to generate professional business websites from simple text descriptions, customize designs, edit website content, manage bookings, receive customer enquiries, and deploy websites online.",
+  images: 'images/icon-192.png',
+  note:'you can also install it as app',
+  link: "https://weblivo-version.vercel.com",
+  github: "https://github.com/blaqtech-dev/frontend-weblivo",
+  type: "Full Stack",
+  tech: ['Next.js', 'React.js', 'Node.js', 'Supabase', 'AI']
+},
 
+{
+  id: 3,
+  title: "OpenTap",
+  word: "AI-powered news and article platform that keeps users informed with regularly updated articles, the latest global developments, and AI-generated insights on current events and trending situations around the world.",
+  images: 'images/icon-512.png',
+  note: 'Explore regularly updated articles and stay informed about the latest happenings around the world, powered by AI.',
+  link: "https://opentap.vercel.app",
+  github: "https://github.com/blaqtech-dev/open-tap",
+  type: "Full Stack",
+  tech: ['Next.js', 'TypeScript', 'Supabase', 'AI']
+},
 
   {
-    id: 3,
+    id: 4,
     title: "askbolu",
     word:
       "An AI-powered question-answering app that uses the Groq API to provide fast and accurate responses to user queries.",
@@ -40,7 +51,7 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
   },
 
   {
-    id: 4,
+    id: 5,
     title: "vidtube",
     word:
       "A YouTube-based video streaming app that allows users to explore and watch videos based on selected categories",
@@ -52,7 +63,7 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Brian Bot",
     word:
       "An engaging quiz game where users can choose categories, test their knowledge, and compete with friends in a fun environment.",
@@ -64,7 +75,7 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
   },
 
     {
-    id: 6,
+    id: 7,
     title: "music player",
     word:
       "A simple and smooth music player that lets users play and enjoy their favorite tracks with ease",
@@ -75,7 +86,7 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
     tech: ["React", "CSS"]
   },
    {
-    id: 7,
+    id: 8,
     title: "Bolu's restaurant",
     word:
       "a website created for a restaurant that allows users to view the menu,their address and wat they sell",
@@ -87,7 +98,7 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Reelora",
     word:
       "Reelora is a web application that allow user to look for different interesting  kinds of movie trailer",
@@ -98,7 +109,7 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
     tech: ["React",'supabase']
   },
     {
-    id: 9,
+    id: 10,
     title: "vydora",
     word:
       "Turn your video files into audio you can listen to anywhere. Convert, download, and keep everything organized in one place.",
@@ -114,24 +125,36 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
 
 export const miniProjectData = [
 
-   {
-    id: 1,
-    title: "Ai Quiz Master",
-word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashcards, study summaries, AI tutoring, classroom management, assignments, multiplayer quiz battles, analytics, and premium subscriptions.",
- images:'images/aiquiz.jpg',
- note:'when you regiter the app,it will direct you to dashboard page,refresh and you can install it as app',
-    link: "https://frontend-aiquizmaster-ydg8.vercel.app",
-    github: "https://github.com/blaqtech-dev/frontend-aiquizmaster",
-    type: "Full Stack",
-    tech: ['reactjs','css','Nodejs','Groq api','Supabase','Pwa','Paystack']
-  },
  {
-    id: 2,
+  id: 1,
+  title: "WEBLIVO",
+  word: "AI-powered website builder that allows users to generate professional business websites from simple text descriptions, customize designs, edit website content, manage bookings, receive customer enquiries, and deploy websites online.",
+  images: 'images/icon-192.png',
+  note: 'Describe your business and let AI generate a professional website. You can customize the generated website before publishing it.',
+  link: "https://weblivo-version.vercel.com",
+  github: "https://github.com/blaqtech-dev/frontend-weblivo",
+  type: "Full Stack",
+  tech: ['Next.js', 'React.js', 'Node.js', 'Supabase', 'AI']
+},
+
+{
+  id: 2,
+  title: "OpenTap",
+  word: "AI-powered news and article platform that keeps users informed with regularly updated articles, the latest global developments, and AI-generated insights on current events and trending situations around the world.",
+  images: 'images/icon-512.png',
+  note: 'Explore regularly updated articles and stay informed about the latest happenings around the world, powered by AI.',
+  link: "https://opentap.vercel.app",
+  github: "https://github.com/blaqtech-dev/open-tap",
+  type: "Full Stack",
+  tech: ['Next.js', 'TypeScript', 'Supabase', 'AI']
+},
+ {
+    id: 3,
     title: "Real-Time Chat App",
     word:
       "Full-stack chat application with real-time messaging, authentication, and image sharing using Firebase and Cloudinary.",
  images:'images/chatapp.jpg',
- note:'when you regiter the app,it will direct you to dashboard page,refresh and you can install it as app',
+ note:'you can also install it as app',
     link: "https://final-chatapp-tau.vercel.app",
     github: "https://github.com/blaqtech-dev/final-chatapp",
     type: "Full Stack",
@@ -139,7 +162,7 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
   },
 
   {
-    id: 3,
+    id: 4,
     title: "askbolu",
     word:
       "An AI-powered question-answering app that uses the Groq API to provide fast and accurate responses to user queries.",
@@ -151,7 +174,7 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
   },
 
   {
-    id: 4,
+    id: 5,
     title: "vidtube",
     word:
      "A YouTube-based video streaming app that allows users to explore and watch videos based on selected categories",
@@ -162,15 +185,5 @@ word: "Full-stack AI learning platform featuring PDF-to-quiz generation, flashca
     tech: ["React", "Youtube api"]
   },
 
-     {
-    id: 5,
-    title: "vydora",
-    word:
-      "Turn your video files into audio you can listen to anywhere. Convert, download, and keep everything organized in one place.",
-    images:'images/vydora-512.png',
-    link: "https://vydora.vercel.app",
-    github: "https://github.com/blaqtech-dev/vydora",
-    type: "full stack",
-    tech: ["React",'supabase']
-  },
+ 
 ];

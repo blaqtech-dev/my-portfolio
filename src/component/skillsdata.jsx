@@ -14,7 +14,7 @@ import {
 
 import { RiTailwindCssFill } from "react-icons/ri";
 
-import { SiExpress, SiMongodb, SiPostman } from "react-icons/si";
+import { SiExpress, SiMongodb, SiPostman,SiNextdotjs,SiTypescript } from "react-icons/si";
 
 export const skillsData = [
 
@@ -48,7 +48,21 @@ export const skillsData = [
     category: "frontend"
   },
   {
-    id: 5,
+  id: 5,
+  Icons: SiNextdotjs,
+  name: "Next.js",
+  color: "#000000",
+  category: "frontend"
+},
+{
+  id: 6,
+  Icons: SiTypescript,
+  name: "TypeScript",
+  color: "#3178C6",
+  category: "frontend"
+},
+  {
+    id: 7,
     Icons: RiTailwindCssFill,
     name: "Tailwind",
     color: "#38BDF8",
@@ -57,21 +71,21 @@ export const skillsData = [
 
   /* ================= BACKEND ================= */
   {
-    id: 6,
+    id: 8,
     Icons: FaNodeJs,
     name: "Node.js",
     color: "#3C873A",
     category: "backend"
   },
   {
-    id: 7,
+    id: 9,
     Icons: SiExpress,
     name: "Express",
     color: "#ffffff",
     category: "backend"
   },
   {
-    id: 8,
+    id: 10,
     Icons: IoLogoFirebase,
     name: "Firebase",
     color: "#FFCA28",
@@ -80,7 +94,7 @@ export const skillsData = [
 
   /* ================= DATABASE ================= */
   {
-    id: 9,
+    id: 11,
     Icons: SiMongodb,
     name: "MongoDB",
     color: "#4DB33D",
@@ -89,21 +103,21 @@ export const skillsData = [
 
   /* ================= TOOLS ================= */
   {
-    id: 10,
+    id: 12,
     Icons: FaGitAlt,
     name: "Git",
     color: "#F05032",
     category: "tools"
   },
   {
-    id: 11,
+    id: 13,
     Icons: FaGithub,
     name: "GitHub",
     color: "#ffffff",
     category: "tools"
   },
   {
-    id: 12,
+    id: 14,
     Icons: SiPostman,
     name: "Postman",
     color: "#FF6C37",
